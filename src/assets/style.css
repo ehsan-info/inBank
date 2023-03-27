@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap'); */
+body {
+    font-family: "Open Sans", sans-serif;
+  }
+.candle-light::after {
+    /* @apply content-[''] w-full left-0 top-0 rounded-xl h-full absolute rounded-[20px] bg-gray -z-10; */
+    margin-right: 17px;
+    content: "";
+    width: 551px;
+    top: 0;
+    right: 0;
+    height: 625px;
+    border-radius: 20px;
+    position: absolute;
+    background-color: #f8f5fc;
+    z-index: -10;
+    margin-top: -35px;
+  }
+@media screen and (max-width: 600px) {
+    .candle-light::after{
+        height: 0;
+        width: 0;
+    }
+    .candle-light{
+        position: fixed;
+        top: 0;
+        margin-top: -123px;
+        z-index: -10;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .candle-light::after{
+        height: 0;
+        width: 0;
+    }
+    
+}
+@media only screen and (min-width: 600px) {
+}
