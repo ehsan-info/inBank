@@ -38,7 +38,7 @@ const consents = [
 </script>
 <template>
   <!-- Start Menu Section -->
-  <header class="w-full lg:w-[1156px] mx-auto relative">
+  <header class="w-full lg:w-[1156px] mx-auto relative menu-bar">
     <div class="flex justify-center">
       <div class="mt-[26px] md:mt-[22px]">
         <img src="../assets/images/logo.png" alt="" />
@@ -64,7 +64,7 @@ const consents = [
         </div>
       </div>
       <div
-        class="w-full md:w-[470px] flex mx-auto bg-white md:bg-transparent rounded-t-[30px] md:rounded-none mt-[180px] md:mt-0"
+        class="info-section w-full md:w-[470px] flex mx-auto bg-white md:bg-transparent rounded-t-[30px] md:rounded-none mt-[180px] md:mt-0"
       >
         <div class="px-[30px] pt-[26px] pb-9 md:p-0 mx-auto">
           <div class="text-center">

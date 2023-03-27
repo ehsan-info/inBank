@@ -6,8 +6,7 @@
 body {
     font-family: "Open Sans", sans-serif;
   }
-.candle-light::before {
-    /* @apply content-[''] w-full left-0 top-0 rounded-xl h-full absolute rounded-[20px] bg-gray -z-10; */
+.candle-light::after {
     margin-right: 17px;
     content: "";
     width: 551px;
@@ -25,11 +24,17 @@ body {
         height: 0;
         width: 0;
     }
+    .menu-bar{
+        z-index: 10;
+    }
+    .info-section{
+        z-index: 10;
+    }
     .candle-light{
         position: fixed;
         top: 0;
         margin-top: -123px;
-        z-index: -10;
+        z-index: 0;
     }
 }
 
