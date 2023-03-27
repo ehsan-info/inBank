@@ -59,7 +59,7 @@ const consents = [
       class="grid grid-cols-1 lg:grid-cols-2 md:gap-[118px] items-center md:mt-[106px]"
     >
       <div class="flex justify-center lg:justify-end relative md:candle-light">
-        <div class="candle-light">
+        <div class="candle-light z-[10]">
           <img class="" src="../assets/images/candle-cake.png" alt="" />
         </div>
       </div>
@@ -192,10 +192,10 @@ const consents = [
   <!-- Modal Form -->
   <div
     id="overlay"
-    class="backdrop-blur-[15px] absolute inset-0 justify-center items-center hidden"
+    class="backdrop-blur-[15px] absolute inset-0 justify-center items-center hidden z-50"
   >
     <div
-      class="bg-white px-[27px] pt-[41px] pb-[44px] rounded-none md:rounded-[20px]"
+      class="bg-white px-[27px] pt-[41px] pb-[44px] rounded-none md:rounded-[20px] min-h-screen md:min-h-0"
     >
       <div class="w-full md:w-[436px] mx-auto">
         <div>

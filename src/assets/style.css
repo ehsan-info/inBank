@@ -6,7 +6,7 @@
 body {
     font-family: "Open Sans", sans-serif;
   }
-.candle-light::after {
+.candle-light::before {
     /* @apply content-[''] w-full left-0 top-0 rounded-xl h-full absolute rounded-[20px] bg-gray -z-10; */
     margin-right: 17px;
     content: "";
