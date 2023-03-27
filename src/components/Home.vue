@@ -178,7 +178,7 @@ const consents = [
             <button
               id="delete-btn"
               type="submit"
-              class="text-base text-blue font-normal mt-4"
+              class="text-base text-blue-900 font-normal mt-4"
             >
               Not interested
             </button>
@@ -189,7 +189,7 @@ const consents = [
   </section>
   <!-- End Body Section -->
 
-  <!-- Modal Form -->
+  <!-- Modal Consent Form -->
   <div
     id="overlay"
     class="backdrop-blur-[15px] absolute inset-0 justify-center items-center hidden z-50"
@@ -250,6 +250,6 @@ const consents = [
       </div>
     </div>
   </div>
-  <!-- End Modal -->
+  <!-- End Consent Modal -->
 </template>
 <style></style>
